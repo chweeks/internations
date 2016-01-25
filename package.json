@@ -10,8 +10,6 @@
   "author": "Hampus Persson <h@hmps.se> (http://hmps.se/)",
   "license": "MIT",
   "jspm": {
-    "directories": {},
-    "dependencies": {},
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.22",
       "babel-runtime": "npm:babel-runtime@^5.8.20",
