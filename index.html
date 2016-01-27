@@ -22,15 +22,19 @@
       <div class="listContainer">
         <div class="list">
           <div class="userInput">
-            <input placeholder="User's Name" size="30" type="text" name="userName">
-            <button id="addUser">Add User</button>
+            <input id="userName" placeholder="User's Name" size="30" type="text" name="userName">
+            <button onclick="addUser(document.getElementById('userName').value)">Add User</button>
           </div>
+          <ul id="userList">
+          </ul>
         </div>
         <div class="list">
           <div class="userInput">
-            <input placeholder="Group Name" size="30" type="text" name="groupName">
-            <button id="addGroup">Add Group</button>
+            <input id="groupName" placeholder="Group Name" size="30" type="text" name="groupName">
+            <button onclick="addGroup(document.getElementById('groupName').value)">Add Group</button>
           </div>
+          <ul id="groupList">
+          </ul>
         </div>
       </div>
     </div>

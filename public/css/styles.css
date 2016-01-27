@@ -85,3 +85,11 @@ header img {
   height: 100%;
   width: 50%;
 }
+
+#userList {
+  margin-top: 5%;
+}
+
+#groupList {
+  margin-top: 5%;
+}
