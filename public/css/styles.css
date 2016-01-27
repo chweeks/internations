@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   height: 100%;
+  color: white;
 }
 
 header {
@@ -23,4 +24,41 @@ header img {
   width: 100%;
   background-image: url("../images/londonSkyline.png");
   background-size: 100%;
+}
+
+.container {
+  margin: 15%;
+  margin-bottom: 0;
+  margin-top: 5%;
+  height: 100%;
+}
+
+.titles {
+  font-size: 2em;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.title {
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.listContainer {
+  color: blue;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.list {
+  height: 100%;
+  width: 48%;
+  opacity: 0.5;
+  background-color: white;
+  display: inline-block;
+  margin: 1%;
 }
